@@ -1208,20 +1208,21 @@ nav ul li{
     }
 
     #fondo_rosa{
-        background-size: 100% 50%;
+        background-image: url(img/fondo_rosa_mobile.jpg);
+        background-size: 100% 100%;
         background-position: top;
     }
 
     .fondo{
-        padding-top: 20px;
+        padding-top: 100px;
     }
 
     .texto {
-        font-size: small;
+        font-size: 15px;
     }
 
     .texto_corte {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .btn--pitfall {

@@ -143,6 +143,7 @@ span.main.words.chars.splitting {
 
 body {
   display: inline;
+  text-align-last: center;
 }
 
 .listas li {
