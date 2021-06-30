@@ -5,7 +5,16 @@
   --color:#b28a8f;
 }
 
+html {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #fff;
+}
+
 body {
+  width: 80%;
+  margin: 20px auto;
   background: #fff;
   color: var(--color);
   font-family: "Cabin Condensed", sans-serif;
@@ -120,6 +129,26 @@ h1 > span {
 }
 
 @media screen and (max-width: 992px) {
+span.main.words.chars.splitting {
+  text-align: center;
+  font-size: xxx-large;
+}
+
+.intro {
+  font-size: 18px;
+  padding-top: 30px;
+  text-align: center;
+  margin: 10px;
+}
+
+body {
+  display: inline;
+}
+
+.listas li {
+  margin: 27px;
+}
+
 span.main.words.chars.splitting {
   text-align: center;
   font-size: xxx-large;

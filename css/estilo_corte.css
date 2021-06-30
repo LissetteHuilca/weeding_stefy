@@ -1202,6 +1202,11 @@ nav ul li{
   }
 
   @media screen and (max-width: 992px) {
+    body{
+        width: 100%;
+        margin: 0px auto;
+    }
+
     #fondo_rosa{
         background-size: 100% 50%;
         background-position: top;
