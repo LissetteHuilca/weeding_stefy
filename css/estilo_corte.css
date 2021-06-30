@@ -1190,3 +1190,48 @@ nav ul li{
       transform: perspective(var(--perspective)) rotateX(var(--rotation)) translateY(100%) scaleX(0.001);
     }
   }
+
+  .fondo{
+    padding-top: 200px;
+  }
+
+  .botones{
+    margin-top: 30px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+
+  @media screen and (max-width: 992px) {
+    #fondo_rosa{
+        background-size: 100% 50%;
+        background-position: top;
+    }
+
+    .fondo{
+        padding-top: 20px;
+    }
+
+    .texto {
+        font-size: small;
+    }
+
+    .texto_corte {
+        font-size: 20px;
+    }
+
+    .btn--pitfall {
+        width: 136px !important;
+        margin-left: 0px;
+    }
+
+    .botones{
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    .wrapper-no4 .button-bird {
+        transform: translateY(0%);
+    }
+  }
+
+  
