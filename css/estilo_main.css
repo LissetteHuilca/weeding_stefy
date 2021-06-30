@@ -1,0 +1,114 @@
+:root {
+  --fluid-type-min: 2rem;
+  --fluid-type-max: 10rem;
+  --fluid-type-target: 5vw;
+  --color:#b28a8f;
+}
+
+body {
+  background: #fff;
+  color: var(--color);
+  font-family: "Cabin Condensed", sans-serif;
+  font-weight: bold;
+  display: grid;
+  place-items: center;
+  text-align-last: center;
+}
+
+@font-face {
+  font-family: fontweeding;
+  src: url(fonts/GreatVibes-A7yL.otf);
+}
+
+h1 > span {
+  line-height: 1;
+  font-size: clamp(
+    var(--fluid-type-min, 1rem),
+    calc(1rem + var(--fluid-type-target, 3vw)),
+    var(--fluid-type-max, 1.3rem)
+  );
+  display: block;
+}
+
+.main {
+  --fluid-type-min: 8rem;
+  --fluid-type-max: 20rem;
+  --fluid-type-target: 20vw;
+  font-family: fontweeding;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 0.7;
+  margin-left: -0.06ch;
+  font-size: 95px;
+  text-transform: capitalize;
+}
+
+.main .char {
+  cursor: zoom-in;
+  transform-origin: center bottom;
+  transition: transform 400ms cubic-bezier(0.4, 0, 0.7, 1.8), color 400ms ease;
+  color: var(--color);
+  box-shadow: none;
+}
+
+.main .char:nth-child(3),
+.main .char:nth-child(4) {
+  letter-spacing: 0.02ch;
+}
+
+.main .char:hover {
+  transform: scale(1.4);
+  transition-duration: 200ms;
+  text-shadow: 0px 0px 3px black, 0px 0px 20px var(--color);
+  z-index: 1;
+}
+
+.main .char:nth-child(1):hover {
+  --color: #7f4869;
+}
+
+.main .char:nth-child(2):hover {
+  --color:#a45d88;
+}
+
+.main .char:nth-child(3):hover {
+  --color: #c772a5;
+}
+
+.main .char:nth-child(4):hover {
+  --color: #b28a8f;
+}
+
+.main .char:nth-child(5):hover {
+  --color: #b8a2a5;
+}
+
+.main .char:nth-child(6):hover {
+  --color: #e3d0d1;
+}
+
+.main .char:nth-child(7):hover {
+  --color: #f4dfe0;
+}
+
+.intro{
+  color: #7f4869;
+  font-size: 20px;
+  padding-top: 30px;
+}
+
+.listas{
+  margin: 0px;
+  padding: 0px;
+  display: inline-flex;
+}
+
+.listas li{
+  display: inline;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#dama:hover, #caballero:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
