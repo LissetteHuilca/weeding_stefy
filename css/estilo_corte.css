@@ -1201,6 +1201,10 @@ nav ul li{
     padding: 0px !important;
   }
 
+  .header-she{
+    font-size: xxx-large;
+  }
+
   @media screen and (max-width: 992px) {
     body{
         width: 100%;
@@ -1238,6 +1242,10 @@ nav ul li{
     .wrapper-no4 .button-bird {
         transform: translateY(0%);
     }
+
+    .header-she{
+        font-size: 70px;
+      }
   }
 
   
