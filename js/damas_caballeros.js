@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function(){
               text.innerHTML = 'Ahora eres parte de mi equipo';
               document.getElementById("noAcepto").style.display = "none";
               text.style.fontSize = "25px";
-              text.style.fontFamily = "fontweedingsub";
+              text.style.fontFamily = "weedingPregunta";
               text.style.transform = "translateY(-30%)";
               setTimeout ("redireccionar()", 5000);
           }else{
