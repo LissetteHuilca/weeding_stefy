@@ -19,6 +19,11 @@ body{
     src: url(fonts/FontAwesome.otf);
 }
 
+@font-face {
+  font-family: fontweedingsub;
+  src: url(fonts/CreamyChocolate-MVpXJ.ttf);
+}
+
 @import url("https://fonts.googleapis.com/css?family=Lato:700&display=swap");
 
 header, aside, section, article, footer{
